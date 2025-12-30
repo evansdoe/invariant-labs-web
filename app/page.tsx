@@ -29,6 +29,7 @@ export default function Home() {
           <Logo />
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+          {/* Separator: Pipe | */}
           <span className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-gray-500 font-mono text-xs">
             LINZ, AUSTRIA | EST. 2025
           </span>
@@ -39,12 +40,12 @@ export default function Home() {
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-to-br before:from-blue-900 before:to-transparent before:opacity-10 before:blur-3xl content-center my-16 lg:my-0">
         <div className="text-center z-10 px-4">
           
-          {/* PRIMARY HEADLINE: The Market Term */}
+          {/* PRIMARY HEADLINE */}
           <h1 className="text-5xl md:text-8xl font-bold tracking-tighter text-white mb-6">
             Physics-Informed AI.
           </h1>
           
-          {/* SUBHEAD: The Brand Promise */}
+          {/* SUBHEAD */}
           <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-xl font-mono leading-relaxed">
             Delivering <strong className="text-white">Invariant Intelligence</strong> for industrial systems.
             <br className="hidden md:block" />
@@ -59,7 +60,7 @@ export default function Home() {
       {/* --- Services Grid --- */}
       <div className="mb-32 grid text-center lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mt-16 gap-6">
         
-        {/* Service 1: Vision & Signal */}
+        {/* Service 1: Vision & Signal (UPDATED) */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Industrial Vision & Signal" 
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
@@ -72,12 +73,12 @@ export default function Home() {
             Physics-informed models for high-dimensional data.
             <br/>
             <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
-              <strong>Core:</strong> Surface defect detection, geometric deep learning, and scattering transforms for welding &amp; sensor arrays.
+              <strong>Core:</strong> Geometric Deep Learning and Scattering Transforms for <span className="text-neutral-300">Euclidean</span> (grids) and <span className="text-neutral-300">Non-Euclidean</span> (graphs/manifolds) data.
             </span>
           </p>
         </a>
 
-        {/* Service 2: SymLogix (UPDATED for NLP) */}
+        {/* Service 2: SymLogix (Geometric NLP) */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Geometric NLP Solutions"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
