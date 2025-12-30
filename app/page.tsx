@@ -2,6 +2,7 @@
 
 const Logo = () => (
   <div className="flex items-center gap-3">
+    {/* SVG: Chaos (Noise) transforming into Order (Invariance) */}
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
       {/* Background Chip */}
       <rect width="40" height="40" rx="8" fill="#111" stroke="#333" strokeWidth="1" />
@@ -36,22 +37,29 @@ export default function Home() {
 
       {/* --- Hero Section --- */}
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-to-br before:from-blue-900 before:to-transparent before:opacity-10 before:blur-3xl content-center my-16 lg:my-0">
-        <div className="text-center z-10">
-          {/* UPDATED HEADLINE: Stronger, brand-aligned */}
+        <div className="text-center z-10 px-4">
+          
+          {/* PRIMARY HEADLINE: The Market Term */}
           <h1 className="text-5xl md:text-8xl font-bold tracking-tighter text-white mb-6">
-            Invariant Intelligence.
+            Physics-Informed AI.
           </h1>
-          {/* UPDATED SUBTEXT: Includes Computer Vision */}
-          <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-base font-mono leading-relaxed">
-            Unifying <strong>Computer Vision</strong>, <strong>Signal Processing</strong>, and <strong>Symbolic Logic</strong> to solve industrial problems with mathematical certainty.
+          
+          {/* SUBHEAD: The Brand Promise */}
+          <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-xl font-mono leading-relaxed">
+            Delivering <strong className="text-white">Invariant Intelligence</strong> for industrial systems.
+            <br className="hidden md:block" />
+            <span className="mt-4 block text-xs md:text-sm text-neutral-500">
+              Unifying Computer Vision, Signal Processing, and Symbolic Logic.
+            </span>
           </p>
+
         </div>
       </div>
 
       {/* --- Services Grid --- */}
       <div className="mb-32 grid text-center lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mt-16 gap-6">
         
-        {/* Service 1: Industrial Vision & Signal (UPDATED) */}
+        {/* Service 1: Vision & Signal */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Industrial Vision & Signal" 
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
@@ -63,14 +71,13 @@ export default function Home() {
           <p className="m-0 text-sm text-neutral-400">
             Physics-informed models for high-dimensional data.
             <br/>
-            {/* Explicitly listing Vision & Mallat-style texture analysis */}
             <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
               <strong>Core:</strong> Surface defect detection, geometric deep learning, and scattering transforms for welding &amp; sensor arrays.
             </span>
           </p>
         </a>
 
-        {/* Service 2: Neuro-Symbolic (Tech) */}
+        {/* Service 2: SymLogix (Tech) */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: SymLogix Reasoning Engine"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
