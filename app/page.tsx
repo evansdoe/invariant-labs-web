@@ -1,7 +1,5 @@
 // app/page.tsx
 
-// 1. The Custom Scientific Logo Component
-// Represents chaos (noise) transforming into order (invariance)
 const Logo = () => (
   <div className="flex items-center gap-3">
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,11 +24,9 @@ export default function Home() {
       
       {/* --- Navigation / Header --- */}
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        {/* Top Logo Bar */}
         <div className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-800 bg-black/80 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border-none lg:bg-transparent lg:p-0">
           <Logo />
         </div>
-        {/* Bottom Location Marker */}
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <span className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-gray-500 font-mono text-xs">
             LINZ, AUSTRIA // EST. 2025
@@ -39,41 +35,42 @@ export default function Home() {
       </div>
 
       {/* --- Hero Section --- */}
-      {/* The background glow effect is created by the 'before' pseudo-element below */}
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-to-br before:from-blue-900 before:to-transparent before:opacity-10 before:blur-3xl content-center my-16 lg:my-0">
         <div className="text-center z-10">
+          {/* UPDATED HEADLINE: Stronger, brand-aligned */}
           <h1 className="text-5xl md:text-8xl font-bold tracking-tighter text-white mb-6">
-            Signal & Symbol.
+            Invariant Intelligence.
           </h1>
-          <p className="text-neutral-400 max-w-lg mx-auto text-sm md:text-base font-mono">
-            Bridging Industrial Signal Processing with Neuro-Symbolic Intelligence.
+          {/* UPDATED SUBTEXT: Includes Computer Vision */}
+          <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-base font-mono leading-relaxed">
+            Unifying <strong>Computer Vision</strong>, <strong>Signal Processing</strong>, and <strong>Symbolic Logic</strong> to solve industrial problems with mathematical certainty.
           </p>
         </div>
       </div>
 
       {/* --- Services Grid --- */}
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mt-12 gap-8">
+      <div className="mb-32 grid text-center lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mt-16 gap-6">
         
-        {/* Service 1: Industrial AI */}
-        <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Industrial AI Solutions" 
+        {/* Service 1: Industrial Vision & Signal (UPDATED) */}
+        <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Industrial Vision & Signal" 
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
-            Industrial AI{" "}
+            Vision &amp; Signal{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none text-blue-500">
               -&gt;
             </span>
           </h2>
           <p className="m-0 text-sm text-neutral-400">
-            Invariant models for high-dimensional industrial data.
+            Physics-informed models for high-dimensional data.
             <br/>
-            {/* UPDATED DESCRIPTION BELOW */}
-            <span className="text-xs text-neutral-600 mt-2 block">
-              Focus: Computer Vision, Welding, &amp; Time-Series
+            {/* Explicitly listing Vision & Mallat-style texture analysis */}
+            <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
+              <strong>Core:</strong> Surface defect detection, geometric deep learning, and scattering transforms for welding &amp; sensor arrays.
             </span>
           </p>
         </a>
 
-        {/* Service 2: Tech / Software */}
+        {/* Service 2: Neuro-Symbolic (Tech) */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: SymLogix Reasoning Engine"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
@@ -84,7 +81,10 @@ export default function Home() {
           </h2>
           <p className="m-0 text-sm text-neutral-400">
             Verifiable reasoning engines bridging LLMs and Symbolic Math.
-            <br/><span className="text-xs text-neutral-600 mt-2 block">Focus: RAG, Verification, Agents</span>
+            <br/>
+            <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
+              <strong>Core:</strong> Automated reasoning, RAG for technical docs, and mathematically verified agent outputs.
+            </span>
           </p>
         </a>
 
@@ -98,8 +98,11 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 text-sm text-neutral-400">
-            Advanced training for engineering teams.
-            <br/><span className="text-xs text-neutral-600 mt-2 block">Focus: Deep Learning Theory &amp; Signal Processing</span>
+            Advanced training for R&amp;D and engineering teams.
+            <br/>
+            <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
+              <strong>Core:</strong> Deep Learning theory, Wavelet Scattering, and Python for Industrial Science.
+            </span>
           </p>
         </a>
       </div>
