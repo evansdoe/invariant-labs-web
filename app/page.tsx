@@ -78,7 +78,7 @@ export default function Home() {
           </p>
         </a>
 
-        {/* Service 2: SymLogix */}
+        {/* Service 2: SymLogix (UPDATED) */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Geometric NLP Solutions"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
@@ -91,12 +91,12 @@ export default function Home() {
             Deterministic NLP for high-stakes industrial logs.
             <br/>
             <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
-              <strong>Core:</strong> Geometric Scattering for text, verifiable graph reasoning, and hallucination-free analysis of safety reports.
+              <strong>Core:</strong> Mapping text to <span className="text-neutral-300">Semantic Manifolds</span> using Spectral Graph Theory. Verifiable meaning detection that is invariant to vocabulary.
             </span>
           </p>
         </a>
 
-        {/* Service 3: Education (UPDATED) */}
+        {/* Service 3: Education */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Corporate Training"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
