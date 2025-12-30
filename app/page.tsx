@@ -15,7 +15,7 @@ const Logo = () => (
         strokeLinejoin="round"
       />
     </svg>
-    <span className="font-bold text-xl tracking-wider text-white font-mono">INVARIANT LABS</span>
+    <span className="font-bold text-xl tracking-wider text-white font-mono">INVARIANT-LABS</span>
   </div>
 );
 
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <span className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-gray-500 font-mono text-xs">
-            LINZ, AUSTRIA // EST. 2025
+            LINZ, AUSTRIA | EST. 2025
           </span>
         </div>
       </div>
