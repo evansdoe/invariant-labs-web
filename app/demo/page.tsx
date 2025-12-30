@@ -32,7 +32,7 @@ export default function Demo() {
           <span>Back to Base</span>
         </Link>
         <div className="text-xs text-neutral-600 border border-neutral-800 px-3 py-1 rounded-full">
-          LIVE DEMO // ENVIRONMENT: PRODUCTION
+          LIVE DEMO | ENVIRONMENT: PRODUCTION
         </div>
       </div>
 
