@@ -15,7 +15,7 @@ const Logo = () => (
         strokeLinejoin="round"
       />
     </svg>
-    <span className="font-bold text-xl tracking-wider text-white font-mono">INVARIANT-LABS.AI</span>
+    <span className="font-bold text-xl tracking-wider text-white font-mono">INVARIANT LABS</span>
   </div>
 );
 
