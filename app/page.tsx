@@ -45,12 +45,12 @@ export default function Home() {
             Physics-Informed AI.
           </h1>
           
-          {/* SUBHEAD */}
+          {/* SUBHEAD (Refined for Modalities) */}
           <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-xl font-mono leading-relaxed">
-            Delivering <strong className="text-white">Invariant Intelligence</strong> for industrial systems.
+            Delivering <strong className="text-white">Invariant Intelligence</strong> for industrial systems across <span className="text-neutral-300">all data modalities</span>.
             <br className="hidden md:block" />
             <span className="mt-4 block text-xs md:text-sm text-neutral-500">
-              Unifying Signal Processing, Geometric Deep Learning, and Symbolic Logic.
+              Unifying Signal Processing, Geometric Deep Learning, and Semantic Geometry.
             </span>
           </p>
 
@@ -78,7 +78,7 @@ export default function Home() {
           </p>
         </a>
 
-        {/* Service 2: SymLogix (UPDATED) */}
+        {/* Service 2: SymLogix */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Geometric NLP Solutions"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
