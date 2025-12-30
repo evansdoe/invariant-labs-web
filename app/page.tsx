@@ -15,7 +15,7 @@ const Logo = () => (
         strokeLinejoin="round"
       />
     </svg>
-    <span className="font-bold text-xl tracking-wider text-white font-mono">INVARIANT-LABS.AI</span>
+    <span className="font-bold text-xl tracking-wider text-white font-mono">INVARIANT LABS</span>
   </div>
 );
 
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-black via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <span className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 text-gray-500 font-mono text-xs">
-            LINZ, AUSTRIA | EST. 2025
+            LINZ, AUSTRIA // EST. 2025
           </span>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default function Home() {
             Delivering <strong className="text-white">Invariant Intelligence</strong> for industrial systems.
             <br className="hidden md:block" />
             <span className="mt-4 block text-xs md:text-sm text-neutral-500">
-              Unifying Computer Vision, Signal Processing, and Symbolic Logic.
+              Unifying Signal Processing, Geometric Deep Learning, and Symbolic Logic.
             </span>
           </p>
 
@@ -77,8 +77,8 @@ export default function Home() {
           </p>
         </a>
 
-        {/* Service 2: SymLogix (Tech) */}
-        <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: SymLogix Reasoning Engine"
+        {/* Service 2: SymLogix (UPDATED for NLP) */}
+        <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Geometric NLP Solutions"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
             SymLogix™{" "}
@@ -87,10 +87,10 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 text-sm text-neutral-400">
-            Verifiable reasoning engines bridging LLMs and Symbolic Math.
+            Deterministic NLP for high-stakes industrial logs.
             <br/>
             <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
-              <strong>Core:</strong> Automated reasoning, RAG for technical docs, and mathematically verified agent outputs.
+              <strong>Core:</strong> Geometric Scattering for text, verifiable graph reasoning, and hallucination-free analysis of safety reports.
             </span>
           </p>
         </a>
