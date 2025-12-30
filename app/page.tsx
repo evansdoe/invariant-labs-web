@@ -60,7 +60,7 @@ export default function Home() {
       {/* --- Services Grid --- */}
       <div className="mb-32 grid text-center lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left mt-16 gap-6">
         
-        {/* Service 1: Vision & Signal (UPDATED) */}
+        {/* Service 1: Vision & Signal */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Industrial Vision & Signal" 
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
@@ -78,7 +78,7 @@ export default function Home() {
           </p>
         </a>
 
-        {/* Service 2: SymLogix (Geometric NLP) */}
+        {/* Service 2: SymLogix */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Geometric NLP Solutions"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
@@ -96,7 +96,7 @@ export default function Home() {
           </p>
         </a>
 
-        {/* Service 3: Education */}
+        {/* Service 3: Education (UPDATED) */}
         <a href="mailto:contact@invariant-labs.ai?subject=Inquiry: Corporate Training"
            className="group rounded-lg border border-neutral-800 px-5 py-6 transition-all hover:border-neutral-600 hover:bg-neutral-900/50">
           <h2 className="mb-3 text-xl font-semibold font-mono text-white">
@@ -106,10 +106,10 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 text-sm text-neutral-400">
-            Advanced training for R&amp;D and engineering teams.
+            Specialized curriculum for industrial R&amp;D teams.
             <br/>
             <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
-              <strong>Core:</strong> Deep Learning theory, Wavelet Scattering, and Python for Industrial Science.
+              <strong>Core:</strong> Geometric Deep Learning, Graph Neural Networks (GNNs), and <span className="text-neutral-300">Physics-Informed</span> architectures.
             </span>
           </p>
         </a>
