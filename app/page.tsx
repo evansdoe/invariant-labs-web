@@ -109,7 +109,7 @@ export default function Home() {
             Specialized curriculum for industrial R&amp;D teams.
             <br/>
             <span className="text-xs text-neutral-500 mt-3 block leading-relaxed">
-              <strong>Core:</strong> Geometric Deep Learning, Graph Neural Networks (GNNs), and <span className="text-neutral-300">Physics-Informed</span> architectures.
+              <strong>Core:</strong> Geometric Deep Learning, Graph Neural Networks (GNNs), and <span className="text-neutral-300">Physics-Informed</span> and SOTA deep learning architectures.
             </span>
           </p>
         </a>
