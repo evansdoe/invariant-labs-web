@@ -15,7 +15,7 @@ const Logo = () => (
         strokeLinejoin="round"
       />
     </svg>
-    <span className="font-bold text-xl tracking-wider text-white font-mono">INVARIANT LABS</span>
+    <span className="font-bold text-xl tracking-wider text-white font-mono">EQUIVARIANT LABS</span>
   </div>
 );
 
@@ -47,7 +47,7 @@ export default function Home() {
           
           {/* SUBHEAD (Refined for Modalities) */}
           <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-xl font-mono leading-relaxed">
-            Delivering <strong className="text-white">Invariant Intelligence</strong> for industrial systems across <span className="text-neutral-300">all data modalities</span>.
+            Delivering <strong className="text-white">Equivariant Intelligence</strong> for industrial systems across <span className="text-neutral-300">all data modalities</span>.
             <br className="hidden md:block" />
             <span className="mt-4 block text-xs md:text-sm text-neutral-500">
               Unifying Signal Processing, Geometric Deep Learning, and Semantic Geometry.
@@ -117,7 +117,7 @@ export default function Home() {
       
       {/* --- Footer --- */}
       <footer className="fixed bottom-4 text-neutral-700 font-mono text-[10px] uppercase tracking-widest">
-        © {new Date().getFullYear()} Invariant Labs. All Systems Nominal.
+        © {new Date().getFullYear()} Equivariant Labs. All Systems Nominal.
       </footer>
     </main>
   );
